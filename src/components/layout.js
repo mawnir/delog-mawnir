@@ -2,7 +2,7 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
-import FiestaImg from "/src/images/icon.png"
+import FiestaImg from "../images/icon.png"
 
 export default ({ children }) => {
   const data = useStaticQuery(
