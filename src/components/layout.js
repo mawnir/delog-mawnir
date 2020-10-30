@@ -21,7 +21,6 @@ export default ({ children }) => {
       <header className="site-header">
         <div className="site-title">
           <Link to="/">{data.site.siteMetadata.title}</Link>
-          <Link to="/">404</Link>
           <img src={FiestaImg} alt="A dog smiling in a party hat" />
         </div>
         <Navigation />
