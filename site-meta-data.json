@@ -4,6 +4,6 @@
   "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
   "home": {
     "title": "Hi! I'm Mawnir",
-    "description": "I have been **Mawnir** designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take \n\n> full advantage of CMS to manage content :)\n\n<iframe width=\"560\" height=\"315\" display:block; src=\"https://www.youtube.com/embed/Ff0lxhHb_BQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    "description": "I have been **Mawnir** designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take \n\n> full advantage of CMS to manage content :)\n\n<iframe width=\"560\" height=\"315\" align=\"middle\" src=\"https://www.youtube.com/embed/Ff0lxhHb_BQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
   }
 }
