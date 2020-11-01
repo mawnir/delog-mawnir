@@ -306,11 +306,15 @@ a {
     }
   }
 }
+
 /* Portrait and Landscape */
 @media only screen 
 and (min-width: 768px) {
 .grids {
   grid-template-columns: 1fr 1fr;
+}
+.navigation a.icon {
+  display: none;
 }
 }
 @media only screen 
@@ -325,7 +329,14 @@ and (min-width: 768px) {
   }
 }
 
-
+@media screen and (max-width: 768px) {
+  .navigation a {display: none;}
+  .navigation a.icon {
+    float: right;
+    display: block;
+    font-size: 30px;
+  }
+}
 // theme-changer
 .theme-changer {
   display: none;
@@ -414,3 +425,35 @@ body.light {
     top: 8px;
     left: 2px
 }
+
+
+// icon menu
+.gg-menu-right {
+  transform: scale(var(--ggs,1))
+ }
+ 
+ .gg-menu-right,
+ .gg-menu-right::after,
+ .gg-menu-right::before {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: currentColor
+ }
+ 
+ .gg-menu-right::after,
+ .gg-menu-right::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 0;
+  width: 10px
+ }
+ 
+ .gg-menu-right::after {
+  top: 6px;
+  width: 14px
+ } 
