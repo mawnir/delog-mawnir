@@ -9,13 +9,14 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #f5c90a;
+  --primary-color: #FFCD03;
   --primary-text-color: #fff;
   --featured-bg: #493b8a;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
-  --site-header: var(--background);
+  --background-header: #fafafa;
+  --site-header: var(--background-header);
   --card-bg: #fff;
   --card-bdr: #eee;
   --card-shadow: #d5d5d5;
@@ -29,15 +30,16 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #fcd00d;
+  --primary-color: #FFCD03;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
   --background: #0A041A;
+  --background-header: #252627;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
-  --site-header: var(--background);
+  --site-header: var(--background-header);
   --card-bg: #181326;
   --card-bdr: #181326;
   --card-shadow: #020204;
@@ -65,8 +67,8 @@ a {
   }
 }
 .site-wrapper {
-  padding: 32px;
-  max-width: 1140px;
+  //padding: 32px;
+  //max-width: 1140px;
   margin: 0 auto;
   img {
     max-width: 100%;
@@ -95,7 +97,7 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 80px;
   background: var(--site-header);
   margin-bottom: 32px;
   align-items: center;
