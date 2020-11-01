@@ -28,6 +28,7 @@ body.light {
   --contact-bg: #f7f8fe;
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
+  --nav-text-color: #222;
 }
 body.dark {
   --primary-color: #FFCD03;
@@ -51,6 +52,7 @@ body.dark {
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
+  --nav-text-color: rgb(255, 255, 255);
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -77,9 +79,9 @@ a {
 .navigation {
   display: flex;
   align-items: center;
-  font-weight: 300;
+  font-weight: 500;
   a {
-    color: #888;
+    color: var(--nav-text-color);
     text-decoration: none;
     margin: 0 8px 0;
     &[aria-current] {
