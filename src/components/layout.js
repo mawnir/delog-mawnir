@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
 import FiestaImg from "../images/main_logo.png"
-
+import Seo from "./seo";
 export default ({ children }) => {
   const data = useStaticQuery(
     graphql`
@@ -22,6 +22,7 @@ export default ({ children }) => {
         <div className="site-title">
            <Link to="/"><img src={FiestaImg} alt="A dog smiling in a party hat"/></Link>
         </div>
+        <Seo/>
         <Navigation />
       </header>
       {children}

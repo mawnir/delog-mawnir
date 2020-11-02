@@ -1,6 +1,7 @@
 import React from "react"
 import {Link} from "gatsby"
 import ThemeChanger from "../components/themeChanger"
+import Nav from "../components/menu"
 
 export default (props) => (
   <nav className="navigation"> 
@@ -13,6 +14,7 @@ export default (props) => (
       <i class="gg-menu-right" ></i>
     </a>
     <ThemeChanger/>
+    <Nav/>
   </nav>
 )
 
