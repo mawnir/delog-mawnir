@@ -116,8 +116,10 @@ a {
   }
 }
 .hero-header {
-  padding: 0 0 64px;
+  padding: 0px 40px 64px;
   max-width: 980px;
+  margin: auto;
+  border: 3px solid #73AD21;
 }
 .headline {
   font-size: 36px;
@@ -217,11 +219,24 @@ a {
     margin-bottom: 0;
   }
 }
+
+.grids-title {
+  
+
+  padding: 30px 40px 64px;
+  max-width: 980px;
+  margin: auto;
+}
+
 .grids {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 32px;
   margin-top: 32px;
+
+  padding: 0px 40px 64px;
+  max-width: 980px;
+  margin: auto;
 }
 .card {
   display: grid;
