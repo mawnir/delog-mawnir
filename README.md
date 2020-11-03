@@ -12,7 +12,6 @@
 ## Documentation
 
 * Once you hit "[Deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/W3Layouts/gatsby-starter-delog)"
-* Connect Github
 * Enter Repository Name
 * And your site starts build process. After the build process your website is live
 
