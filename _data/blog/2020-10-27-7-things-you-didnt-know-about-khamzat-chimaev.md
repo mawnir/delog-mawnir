@@ -5,7 +5,10 @@ date: 2020-10-27T15:45:31.547Z
 title: 7 Things You Didn't Know About Khamzat Chimaev !
 thumbnail: /assets/nj.jpg
 ---
-<iframe width="560" height="315" style="display: block; margin: auto;" src="https://www.youtube.com/embed/0ZLPAWOqq1w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+<iframe src="//www.youtube.com/embed/1-TZqOsVCNM" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 
 This is my 7 things you didn't know about Khamzat Chimaev! Chimaev is a one of best upcoming fighters the UFC got. 
 
