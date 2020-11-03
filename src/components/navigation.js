@@ -1,7 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import ThemeChanger from "../components/themeChanger"
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
 
+UIkit.use(Icons);
 export default (props) => (
   <nav className="navigation">
     <Link to="/contact">Contact</Link>
