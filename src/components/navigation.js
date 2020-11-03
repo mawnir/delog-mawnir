@@ -17,8 +17,8 @@ export default (props) => (
       <div class="uk-inline ">
       <span uk-icon="icon: menu; ratio: 1.3" class="uk-icon-link"></span>
 
-        <div uk-dropdown="mode: click;" class="uk-background-muted">
-          <ul className="uk-nav uk-dropdown-nav ">
+        <div uk-dropdown="mode: click; pos: bottom-center" class="uk-background-muted">
+          <ul className="uk-nav uk-dropdown-nav">
             <li class="uk-active"> <Link to="/contact">Contact</Link> </li>
             <li > <Link to="/404"> <span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> 404</Link> </li>
             <li class="uk-nav-divider"></li>

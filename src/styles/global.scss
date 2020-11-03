@@ -99,10 +99,13 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 80px;
+  //padding: 20px 80px;
   background: var(--site-header);
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   align-items: center;
+
+  padding: 10px 20px 15px;
+ 
 }
 .site-title {
   & a {
@@ -116,10 +119,9 @@ a {
   }
 }
 .hero-header {
-  padding: 0px 40px 64px;
+  padding: 0px 10px 0px;
   max-width: 980px;
   margin: auto;
-  border: 3px solid #73AD21;
 }
 .headline {
   font-size: 36px;
