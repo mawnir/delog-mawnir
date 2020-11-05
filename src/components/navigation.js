@@ -7,16 +7,15 @@ import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
 export default (props) => (
   <nav className="navigation">
+    
     <Link to="/contact">Contact</Link>
     <Link to="/404">404</Link>
     <a href='https://www.youtube.com/channel/UCXOgTJOW1n-PwPuRmOM8U6A?sub_confirmation=1' >Subscribe &rarr;</a>
     <Link to="/contact">Contact</Link>
 
     <div>
-
       <div class="uk-inline ">
-      <span uk-icon="icon: menu; ratio: 1.3" class="uk-icon-link"></span>
-
+        <span uk-icon="icon: menu; ratio: 1.3" class="uk-icon-link"></span>
         <div uk-dropdown="mode: click; pos: bottom-center" class="uk-background-muted">
           <ul className="uk-nav uk-dropdown-nav">
             <li class="uk-active"> <Link to="/contact">Contact</Link> </li>
@@ -26,8 +25,6 @@ export default (props) => (
           </ul>
         </div>
       </div>
-
-
     </div>
 
     <ThemeChanger />

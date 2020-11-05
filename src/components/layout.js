@@ -18,13 +18,17 @@ export default ({ children }) => {
   )
   return (
     <div className="site-wrapper">
-      <header className="site-header">
-        <div className="site-title">
-           <Link to="/"><img src={FiestaImg} alt="A dog smiling in a party hat"/></Link>
-        </div>
-        <Seo/>
-        <Navigation />
-      </header>
+      <div className="header-bg">
+        <header className="site-header">
+
+          <div className="site-title">
+            <Link to="/"><img src={FiestaImg} alt="A dog smiling in a party hat" /></Link>
+          </div>
+          <Seo />
+          <Navigation />
+        </header>
+      </div>
+
       {children}
       <footer className="site-footer">
         <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> </p>
