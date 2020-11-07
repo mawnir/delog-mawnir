@@ -15,7 +15,7 @@ export default (props) => (
 
     <div>
       <div class="uk-inline ">
-        <span uk-icon="icon: menu; ratio: 1.3" class="uk-icon-link"></span>
+        <i className="gg-menu-right-alt uk-icon-link"  ></i>
         <div uk-dropdown="mode: click; pos: bottom-center" class="uk-background-muted">
           <ul className="uk-nav uk-dropdown-nav">
             <li class="uk-active"> <Link to="/contact">Contact</Link> </li>
