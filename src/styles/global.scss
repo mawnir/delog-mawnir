@@ -29,6 +29,7 @@ body.light {
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
   --nav-text-color: #222;
+  height: 100%;
 }
 body.dark {
   --primary-color: #FFCD03;
@@ -53,6 +54,7 @@ body.dark {
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
   --nav-text-color: rgb(255, 255, 255);
+  height: 100%;
 }
 /* System Fonts as used by Medium and WordPress */
 body {

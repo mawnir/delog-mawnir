@@ -13,11 +13,7 @@ const SEO = ({ seo = {} }) => {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css?family=Staatliches",
         },
-        {
-          rel: "stylesheet",
-          href:
-            "https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css",
-        },
+        
       ]}
       script={[
         {
