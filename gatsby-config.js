@@ -60,5 +60,19 @@ module.exports = {
     // siteURL is a must for sitemap generation
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-embed-youtube",
+          options: {
+            width: 800,
+            height: 90%
+          }
+        }
+        ]
+      }
+    },
   ],
 }
