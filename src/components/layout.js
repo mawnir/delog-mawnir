@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
+import NCopy from "../components/ncopy"
 import 'prismjs/themes/prism-okaidia.css';
 import FiestaImg from "../images/main_logo.png"
 import Seo from "./seo";
@@ -26,7 +27,9 @@ export default ({ children }) => {
           </div>
           <Seo />
           <Navigation />
+         
         </header>
+        <NCopy />
       </div>
 
       {children}
