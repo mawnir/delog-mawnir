@@ -35,8 +35,11 @@ const Navog = props => {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem >
-            <Link to="/contact">Contact</Link>
+        <MenuItem 
+         component={Link}
+         to="/contact"
+        >
+          Contact 
         </MenuItem>
         <MenuItem >
             <a href='https://www.youtube.com/channel/UCXOgTJOW1n-PwPuRmOM8U6A?sub_confirmation=1' >Subscribe &rarr;</a>
